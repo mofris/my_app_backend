@@ -61,6 +61,7 @@ class ContactController extends Controller
 
         return response()->json([
             'success' => true,
+            'message' => 'Successfuly',
             'data' => $contact
         ]);
     }
